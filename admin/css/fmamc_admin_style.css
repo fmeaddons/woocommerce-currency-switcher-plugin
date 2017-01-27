@@ -1,0 +1,18 @@
+.fma_error { color: red; font-size: 12px;}
+
+#select_currency_first, #select_currency_value{ display: none;}
+
+
+
+#load{
+    width:102.1%;
+    height:100%;
+    /*min-height: 230%;*/
+    position: fixed;
+    z-index:9999;
+    top:0;
+    left: -21px;
+    display: none;
+    background:url("../../images/ajax-loader.gif") no-repeat center center rgba(0,0,0,0.25)
+}
+
